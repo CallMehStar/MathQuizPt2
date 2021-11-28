@@ -26,7 +26,7 @@ function send() {
 	row = question_number + input_box + check_button ;
 	document.getElementById("output").innerHTML = row;
 	document.getElementById("number1").value = "";
-	document.getElementById("number2").value = ";"
+	document.getElementById("number2").value = ""
 }
 
 question_turn = "player1";
